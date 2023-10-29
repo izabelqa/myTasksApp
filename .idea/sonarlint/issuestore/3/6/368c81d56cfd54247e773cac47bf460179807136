@@ -1,0 +1,13 @@
+
+{
+java:S1450"YRemove the "dateButton" field and declare it as a local variable in the relevant methods.(ˆŸªùùÿÿÿÿ8¤İËÜ·1
+}
+java:S1450"[Remove the "doneCheckBox" field and declare it as a local variable in the relevant methods.(§¨âŸıÿÿÿÿ8¤İËÜ·1
+|
+java:S1450"_Remove the "taskNameEditText" field and declare it as a local variable in the relevant methods.(öÙÅš8¤İËÜ·1
+Y
+java:S1874"7Remove this use of "getSerializable"; it is deprecated.(½‚°½ıÿÿÿÿ8´İËÜ·1
+£
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ş’æ÷ıÿÿÿÿ8ÄİËÜ·1
+
+java:S1186;"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê8ÄİËÜ·1

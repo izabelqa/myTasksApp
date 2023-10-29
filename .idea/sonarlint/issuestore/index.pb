@@ -1,0 +1,23 @@
+
+F
+app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
+@
+build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+l
+<app/src/main/java/com/exe/mainactivity/TaskListActivity.java,9\f\9ff2d2fcb1a7d597ed3626332e9c6929afd2eb75
+h
+8app/src/main/java/com/exe/mainactivity/MainActivity.java,6\7\67e49a4b36f860e1bac6e5619723a22e1c3887cf
+r
+Bapp/src/main/java/com/exe/mainactivity/SingleFragmentActivity.java,e\3\e3a3fd162f58d8b264870c028893f48df5a6ded7
+g
+7app/src/main/java/com/exe/mainactivity/TaskStorage.java,2\e\2e0ebfbd28c866549401c9017aff1ef3cbd0b17d
+`
+0app/src/main/java/com/exe/mainactivity/Task.java,4\2\42c2415406a819ff3a465aca003bedf941f3f378
+l
+<app/src/main/java/com/exe/mainactivity/TaskListFragment.java,d\2\d2a093ee97b0926b94e089243af2ccf721d5a35a
+h
+8app/src/main/java/com/exe/mainactivity/TaskFragment.java,3\6\368c81d56cfd54247e773cac47bf460179807136
