@@ -4,34 +4,37 @@ import java.util.List;
 import java.util.UUID;
 
 public class TaskStorage {
-    private static TaskStorage instance;
-    private List<Task> taskList;
-
+    private static final TaskStorage taskStorage = new TaskStorage();
+    private List<Task> tasks;
+    public static TaskStorage getInstance() {
+        return taskStorage;
+    }
     private TaskStorage() {
 
-        taskList = new ArrayList<>();
-        for (int i = 1; i <= 100; i++) {
+        tasks = new ArrayList<>();
+        for (int i = 1; i <= 150; i++) {
             Task task = new Task();
-            task.setTaskName("Zadanie " + i);
-            task.setDone(i%3 == 0);
-            taskList.add(task);
+            if(i%3 == 0) {
+                task.setCategory(Category.STUDIES);
+            } else {
+                task.setCategory(Category.HOME);
+            }
+            task.setTaskName("Zadanie "+ i + "  ");
+            tasks.add(task);
         }
     }
 
-    public static TaskStorage getInstance() {
-        if (instance == null) {
-            instance = new TaskStorage();
-        }
-        return instance;
+    public void addTask(Task task){
+        tasks.add(task);
     }
 
-    public List<Task> getAllTasks() {
-        return taskList;
+    public List<Task> getTasks() {
+        return tasks;
     }
 
     public Task getTask(UUID taskId) {
-        for (Task task : taskList) {
-            if (task.getId() == taskId) {
+        for (Task task : tasks) {
+            if (task.getId().equals(taskId)) {
                 return task;
             }
         }

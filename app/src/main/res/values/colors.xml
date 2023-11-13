@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="deepNavy">#001F3F</color>
+    <color name="deepRose">#C71585</color>
+    <color name="cream">#FFDAB9</color>
+    <color name="peach">#FFA500</color>
 </resources>

@@ -208,3 +208,5 @@ Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c
 Q.idea/sonarlint/securityhotspotstore/6/8/685f3206b0503810246d826c63276034424fd511,f\9\f9049a771029e9a5e992ec4f031c09e70fc99ac7
 Å
 Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,3\0\30205a209c6ce77c4cfc19a09e6f57c588b7fb88
+d
+4app/src/main/java/com/exe/mainactivity/Category.java,6\d\6deb0f5264adab29da8c0557f6ebca0be869b271
